@@ -44,10 +44,23 @@ main h1 {
   text-align: center;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
 nav ul {
   display: flex;
   gap: 1.5rem;
   list-style: none;
+}
+
+nav .logo {
+  width: 120px; /* fixed width */
+  height: auto; /* keeps the aspect ratio */
+  display: block; /* ensures proper sizing */
 }
 
 .button-primary,
